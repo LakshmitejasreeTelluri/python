@@ -1,0 +1,31 @@
+f=open("file1.txt",'w')
+print("position before writing:",f.tell())
+f.write("this is file1\n")
+print("position after writing sentence1:",f.tell())
+f.write("first line of file1 \n")
+print("position after writing both the sentences:",f.tell())
+f=open("file1.txt",'r')
+print(f.read())
+f=open("file1.txt",'r')
+print("position after seek:",f.seek(6))
+print(f.read(11))
+print("position after seek and read:",f.tell())
+f=open("file1.txt",'r')
+print(f.readline())
+f=open("file1.txt",'r')
+print(f.readlines())
+lines=[
+		"first line of the file.\n",
+		"second line of file.\n",
+		"third line of file.\n"
+			]
+f=open("notes.txt",'w')
+f.writelines(lines)
+f=open("notes.txt",'r')
+print(f.read())
+f=open("notes.txt",'r')
+print(f.readline())
+f=open("notes.txt",'r')
+print(f.readlines())
+print("done")
+f.close()
