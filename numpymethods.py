@@ -1,0 +1,13 @@
+import numpy as np
+arr1=np.array([1,2,3,4,5])
+print("Original array 1:",arr1)
+print("No.of dimensions of array 1:",arr1.ndim)
+print("Shape of array 1:",arr1.shape)
+print("Size of array 1:",arr1.size)
+print("Data type of array 1:",arr1.dtype)
+arr2=np.array([[11,19],[20,25]])
+print("Original array 2:",arr2)
+print("No.of dimensions of array 2:",arr2.ndim)
+print("Shape of array 2:",arr2.shape)
+print("Size of array 2:",arr2.size)
+print("Data type of array 2:",arr2.dtype)

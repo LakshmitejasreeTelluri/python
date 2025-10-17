@@ -1,0 +1,12 @@
+import numpy as np
+arr1=np.array([1,2,3,4,5])
+print("Original array:",arr1)
+arr2=np.arange(1,10)
+print("array2:",arr2)
+arr3=np.ones((2,2))
+print("Arrays of ones:\n",arr3)
+arr4=np.zeros((3,3))
+print("Array of zeros:\n",arr4)
+arr5=np.random.rand(2,3)
+print("Random array will have the elements between 0 and 1")
+print("Random array:\n",arr5)
